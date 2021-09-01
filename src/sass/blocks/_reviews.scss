@@ -1,0 +1,103 @@
+.reviews {
+    padding: 52px 0 68px;
+    background-color: #f7f3e8;
+
+    &__wrap {
+        position: relative;
+    }
+
+    &__items {
+        width: 100%;
+        overflow: hidden;
+
+        &-wrap {
+            margin-top: 37px;
+            display: flex;
+            transition: 0.5s all;
+        }
+    }
+
+    &-item {
+        display: flex;
+        padding: 0 10px;
+
+
+        &__img {
+            background: url('../img/foto_1.jpg') top (center/cover) no-repeat;
+            width: 121px;
+            height: 121px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            border: 5px solid #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 40px;
+
+        }
+
+        .not-found {
+            background: #ffffff url('../icons/foto.png') center no-repeat;
+        }
+
+        &__block {
+            position: relative;
+            padding: 26px;
+            width: 390px;
+            background-color: #ffffff;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 0;
+                width: 0;
+                top: 33px;
+                left: -54px;
+                border: 27px solid transparent;
+                border-right: 27px solid #ffffff;
+            }
+        }
+
+        &__title {
+
+            font-size: 17px;
+            font-weight: 500;
+            color: #323232;
+        }
+
+        &__date {
+
+            margin-top: 9px;
+            font-size: 9px;
+            font-weight: 300;
+            color: #ffffff;
+            width: 119px;
+            height: 29px;
+            background-color: #bababc;
+            text-align: center;
+            line-height: 29px;
+        }
+
+        &__text {
+            margin-top: 7px;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 300;
+            color: #323232;
+        }
+    }
+
+    &__btn-prev,
+    &__btn-next {
+        @include arrow;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -35px;
+    }
+
+    &__btn-next {
+        right: -35px;
+        left: auto;
+
+    }
+}

@@ -1,0 +1,37 @@
+.button {
+    display: inline-block;
+    padding: 14px 0;
+    width: 153px;
+    height: 38px;
+    background-color: #e8d8b6;
+    font-size: 12px;
+    color: #323232;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.5s all;
+
+    &:hover {
+        box-shadow: 5px 5px 20px rgba(168, 168, 168, 0.8);
+        transform: scale(1.01);
+
+    }
+
+
+    &__brown {
+        background-color: #c99c47;
+        color: #ffffff;
+    }
+
+    &__black {
+        background-color: #323232;
+        color: #ffffff;
+    }
+
+    &__beige {
+        background-color: #d4c198;
+        font-size: 13px;
+        color: #ffffff;
+        text-transform: none;
+        width: 120px;
+    }
+}

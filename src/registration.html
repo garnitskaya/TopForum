@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="menu">
+                        <li>
+                            <a class="menu__item" href="sponsors.html">Sponsors</a>
+                            <ul class="sub-menu">
+                                <li><a class="sub-menu__item" href="#">General Sponsor</a></li>
+                                <li><a class="sub-menu__item" href="#">Platinum Sponsor</a></li>
+                                <li><a class="sub-menu__item" href="#">High-Tech Sponsor</a></li>
+                                <li><a class="sub-menu__item" href="#">Gold Sponsor</a></li>
+                                <li><a class="sub-menu__item" href="#">Silver Night Sponsor</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="menu__item" href="exhibitors.html">Exhibitors</a>
+                            <ul class="sub-menu">
+                                <li><a class="sub-menu__item" href="#">Wealth TOP FORUM Israel 2016</a></li>
+                                <li><a class="sub-menu__item" href="#">Another name of the conference</a></li>
+                                <li><a class="sub-menu__item" href="#">Another name of the conference 2016</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="menu__item" href="speakers.html">Speakers</a>
+                            <ul class="sub-menu">
+                                <li><a class="sub-menu__item" href="#">Wealth TOP FORUM Israel 2016</a></li>
+                                <li><a class="sub-menu__item" href="#">Another name of the conference</a></li>
+                                <li><a class="sub-menu__item" href="#">Another name of the conference 2016</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="menu__item" href="articles.html">Media</a>
+                        </li>
+                    </ul>
+                    <a class="button" href="index.html">TOP FORUM CLUB</a>
+                </nav>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="header-bottom ">
+            <div class="container">
+                <div class="wrapper">
+                    <a class="header__logo" href="index.html"><img src="img/logo.png" alt="Topforum"></a>
+                    <div class="header__contacts">
+                        <div class="header__contacts-item">
+                            <a href="events.html" class="header__contacts-img">
+                                <img src="icons/events.png" alt="events">
+                            </a>
+                            <a href="events.html">UPCOMING EVENTS</a>
+                        </div>
+                        <div class="header__contacts-item">
+                            <a href="contacts.html" class="header__contacts-img">
+                                <img src="icons/contacts.png" alt="contacts">
+                            </a>
+                            <a href="contacts.html">contacts</a>
+                        </div>
+                    </div>
+                    <a class="button button__brown" href="registration.html">REGISTER NOW</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="registration">
+
+        <div class="container">
+            <h1 class="title registration__title">2 EASY STEPS TO REGISTER</h1>
+            <div class="registration__condition ">
+                <a class="registration__terms" href="">FILL IN THE FORM IN ENGLISH</a>
+                <img src="icons/arrow_2.png" alt="">
+                <a class="registration__terms" href="">READ THOROUGHLY TERMS&CONDITIONS</a>
+            </div>
+            <form class="registration__form" action="#">
+                <div class=" wrap">
+                    <div class="registration__block">
+                        <label class="label" for="conferences">Please, choose a
+                            conference:</label>
+                        <select class="item-select__box" name="conferences" id="conferences">
+                            <option value="conferences_1">Wealth TOP FORUM Israel 2016</option>
+                            <option value="conferences_2">Wealth TOP FORUM Israel 2016</option>
+                            <option value="conferences_3">Wealth TOP FORUM Israel 2016</option>
+                        </select>
+                    </div>
+                    <div class="registration__block">
+                        <div class="label">Please choose <span>delegate package</span>:</div>
+                        <ul class="registration__list list">
+                            <li><button class="list__btn">Standard</button></li>
+                            <li><button class="list__btn">Premium</button></li>
+                        </ul>
+                    </div>
+                    <div class="registration__block">
+                        <label class="label" for="name">Name:</label>
+                        <input class="input" type="text" name="name" id="name">
+                    </div>
+                    <div class="registration__block">
+                        <label class="label" for="surname">Surname:</label>
+                        <input class="input" type="text" name="surname" id="surname">
+                    </div>
+                    <div class="registration__block">
+                        <label class="label" for="company">Company Name:</label>
+                        <input class="input" type="text" name="company" id="company">
+                    </div>
+                    <div class="registration__block">
+                        <label class="label" for="area">Business Area:</label>
+                        <select class="item-select__box" name="area" id="area">
+                            <option value="area_1">Forex companies</option>
+                            <option value="area_2">Forex companies</option>
+                            <option value="area_3">Forex companies</option>
+                        </select>
+                    </div>
+                    <div class="registration__block">
+                        <label class="label" for="position">Position:</label>
+                        <input class="input" type="text" name="position" id="position">
+                    </div>
+                    <div class="registration__block">
+                        <label class="label" for="email">E-mail (for organizers):</label>
+                        <input class="input" type="email" name="email" id="email">
+                    </div>
+                    <div class="registration__block">
+                        <label class="label" for="email_sponsors">E-mail (for sponsors):</label>
+                        <input class="input" type="email" name="email" id="email_sponsors">
+                    </div>
+                    <div class="registration__block">
+                        <label class="label" for="phone">Mobile Number (for organizers):</label>
+                        <input class="input" type="tel" name="phone" id="phone">
+                    </div>
+                    <div class="registration__block">
+                        <label class="label" for="country">Country:</label>
+                        <input class="input" type="text" name="country" id="country">
+                    </div>
+                    <div class="registration__block">
+                        <label class="label" for="web-site">Web-site:</label>
+                        <input class="input" type="text" name="web-site" id="web-site">
+                    </div>
+                    <div class="registration__block">
+                        <div class="label">Method of payment</div>
+                        <ul class="registration__list list">
+                            <li><button class="list__btn list__btn_mini list__btn_mini-1"></button></li>
+                            <li><button class="list__btn list__btn_mini list__btn_mini-2"></button></li>
+                            <li><button class="list__btn list__btn_mini list__btn_mini-3"></button></li>
+                            <li><button class="list__btn list__btn_mini list__btn_mini-4"></button></li>
+                        </ul>
+                    </div>
+                    <div class="registration__triggers">
+                        <div class="registration__checkbox">
+                            <input type="checkbox" name="checkbox" id="checkbox" required>
+                            <label for="checkbox"></label><span>I accept <a href="#">Terms&Conditions</a></span>
+                        </div>
+                        <button class="button button__brown">SUBMIT</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <nav class="nav">
+
+                    <ul class="menu menu__border">
+                        <li>
+                            <a href="#" class="menu__title">TOP FORUM</a>
+                        </li>
+                        <li><a class="menu__item" href="#">events</a></li>
+                        <li><a class="menu__item" href="#">events</a></li>
+                        <li><a class="menu__item" href="#">Speakers</a></li>
+                        <li><a class="menu__item" href="#">Media</a></li>
+                    </ul>
+
+                    <ul class="menu">
+                        <li>
+                            <a href="#" class="menu__title">contact</a>
+                        </li>
+                        <li><a class="menu__item" href="#">Top Forum Group</a></li>
+                        <li><a class="menu__item" href="#">Trnavska cesta 82, 821 02 Bratislava, Slovakia</a></li>
+                        <li><br><br></li>
+                        <li><a class="menu__item" href="tel:421221025322">+421 221 025 322</a></li>
+                        <li><a class="menu__item" href="mailto:info@topforum.com">info@topforum.com</a></li>
+                    </ul>
+                </nav>
+                <a class="follow" href="#">FOLLOW us</a>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">© 2014 Top Forum Group. All rights reserved.</div>
+                <div class="development">Website development: <span>Alena Garnitskaya</span></div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal__content">
+            <div class="modal__close">&times;</div>
+            <div class="modal__title">SUBSCRIBE</div>
+            <div class="modal__descr">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+            <form action="#" class="feed-form">
+                <input type="text" name="name" required placeholder="Name and surname">
+                <input type="text" name="text" required placeholder="Company name">
+                <input type="email" name="email" required placeholder="E-mail">
+                <button class="button feed-form__button">SUBSCRIBE</button>
+            </form>
+        </div>
+    </div>
+
+    <a class="pageup""><img src=" icons/arrow_up.png" alt="up"></a>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

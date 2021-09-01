@@ -1,0 +1,25 @@
+.sponsors {
+    padding: 50px 0 55px;
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &-item {
+        margin: 45px 15px 15px;
+
+        &__img {
+            margin-top: 18px;
+        }
+    }
+
+
+
+    .button {
+        &__beige {
+            margin-top: 15px;
+        }
+    }
+}

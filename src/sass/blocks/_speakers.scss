@@ -1,0 +1,35 @@
+.speakers {
+    padding: 50px 0 70px;
+
+    &__items {
+        margin-top: 40px;
+        display: grid;
+        grid-template: repeat(2, auto)/ repeat(auto-fill, 263px);
+        grid-auto-rows: auto;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    &-item {
+        &__img {
+            margin: 0 auto;
+            width: 151px;
+            height: 151px;
+            border-radius: 50%;
+
+            img {
+                width: 133px;
+                height: 133px;
+                background-color: #f3ebda;
+                border-radius: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .button {
+        &__beige {
+            margin-top: 15px;
+        }
+    }
+}

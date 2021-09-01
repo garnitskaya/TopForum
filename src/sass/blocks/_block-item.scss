@@ -1,0 +1,45 @@
+.block-item {
+    width: 263px;
+    text-align: center;
+    font-weight: 500;
+
+    &__title {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #c99c47;
+    }
+
+    &__img {
+        width: 263px;
+        height: 160px;
+        background-color: #ffffff;
+        border: 1px solid #f3ebda;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    &__subtitle {
+        margin-top: 17px;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #323232;
+
+    }
+
+    &__descr {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 300;
+        color: #323232;
+        line-height: 20px;
+        text-align: justify;
+        text-align-last: center;
+    }
+}

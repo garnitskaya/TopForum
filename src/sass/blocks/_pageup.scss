@@ -1,0 +1,18 @@
+.pageup {
+    display: none;
+    position: fixed;
+    width: 42px;
+    height: 42px;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+    }
+
+    &__show {
+        display: block;
+    }
+}

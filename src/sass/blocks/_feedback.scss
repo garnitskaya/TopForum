@@ -1,0 +1,106 @@
+.feedback {
+    padding: 45px 0;
+    background-color: #f8f3e9;
+
+    .wrap {
+        margin-top: 35px;
+        display: grid;
+        grid-template: auto / minmax(auto, 555px) auto;
+        column-gap: 36px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__textarea {
+        position: relative;
+
+        textarea {
+            padding: 15px;
+            width: 100%;
+            height: 115px;
+            background-color: #ffffff;
+            border: 1px solid #e8d8b6;
+            resize: none;
+
+            &:focus {
+                box-shadow: 0px 0px 15px rgba($color: #000000, $alpha: 0.3);
+            }
+        }
+
+    }
+
+    &__input {
+        margin-top: 43px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+
+        input {
+            padding: 15px;
+            width: 48.5%;
+            height: 50px;
+            background-color: #ffffff;
+            border: 1px solid #e8d8b6;
+            font-size: 12px;
+            font-weight: 300;
+            color: #606060;
+
+            &:focus {
+                box-shadow: 0px 0px 15px rgba($color: #000000, $alpha: 0.3);
+            }
+        }
+    }
+
+    .label {
+        position: absolute;
+        top: -24px;
+        left: 0;
+        font-size: 14px;
+        font-weight: 500;
+        color: #606060;
+    }
+
+    .button {
+        &__brown {
+            margin-top: 15px;
+            width: 111px;
+            height: 42px;
+            align-self: flex-end;
+        }
+    }
+
+    .info {
+        font-size: 15px;
+        line-height: 20px;
+        color: #323232;
+
+        &__text-fw500 {
+            font-weight: 500;
+        }
+
+        &__tel {
+            font-size: 23px;
+            line-height: 35px;
+            font-weight: 700;
+            color: #323232;
+        }
+
+        &__text-fw400P {
+            font-weight: 400;
+        }
+
+        &__link {
+            font-weight: 400;
+            text-decoration: underline;
+            color: #c99c47;
+            line-height: 30px;
+        }
+
+        &__text-fw300 {
+            font-weight: 300;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+@import 'libs/fonts';
+@import 'libs/style';
+@import 'base/mixins';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #323232;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #323232;
+    text-align: justify;
+    text-align-last: center;
+}
+
+@import 'blocks/header';
+@import 'blocks/btns.scss';
+@import 'blocks/promo';
+@import 'blocks/content';
+@import 'blocks/reviews';
+@import 'blocks/promo-video';
+@import 'blocks/clients';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/forms';
+@import 'blocks/sponsors';
+@import 'blocks/select';
+@import 'blocks/block-item';
+@import 'blocks/exhibitors';
+@import 'blocks/speakers';
+@import 'blocks/articles';
+@import 'blocks/contacts';
+@import 'blocks/feedback';
+@import 'blocks/page-detail';
+@import 'blocks/events';
+@import 'blocks/registration';
+@import 'blocks/pageup';
+@import 'blocks/hamburger';
+@import 'blocks/media';
